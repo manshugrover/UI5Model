@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<data>
+    <empStr>
+        <empNo>2300</empNo>
+        <empName>Manshi</empName>
+        <salary>3400</salary>
+        <currency>USD</currency>
+        <smoker>false</smoker>
+        <mStat>S</mStat>
+        <gender>https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F65%2F65581.png&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ffemale-avatar_65581&tbnid=FDHquNQ9K9wAaM&vet=12ahUKEwjl4eulyoTvAhWxUXwKHb9eAfoQMygCegUIARDdAQ..i&docid=Ws4jMftUED2TlM&w=512&h=512&q=female%20icons&ved=2ahUKEwjl4eulyoTvAhWxUXwKHb9eAfoQMygCegUIARDdAQ </gender>
+        <rating>5</rating>
+    </empStr>
+    <empTab>
+        <row>
+            <empNo>900</empNo>
+            <empName>Rash</empName>
+            <salary>1200</salary>
+            <currency>EURO</currency>
+            <smoker>True</smoker>
+            <mStat>Married</mStat>
+            <gender>https://www.google.com/search?q=Male+Icons&sxsrf=ALeKk01NCY4U-8p_QAUSyelKWYHsjgVk4A:1614240341325&tbm=isch&source=iu&ictx=1&fir=-95TjxP481lJ8M%252CC4TxSlOFZAHMSM%252C_&vet=1&usg=AI4_-kRTZhLg9yI4E1EFnJVNUWndoJIU-A&sa=X&ved=2ahUKEwjlpIHxyYTvAhV17XMBHaN9BlYQ9QF6BAgKEAE#imgrc=-95TjxP481lJ8M </gender>
+            <rating>4</rating>
+        </row>
+        <row>
+            <empNo>901</empNo>
+            <empName>Tahreen</empName>
+            <salary>1290</salary>
+            <currency>EURO</currency>
+            <smoker>False</smoker>
+            <mStat>Married</mStat>
+            <gender>https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F65%2F65581.png&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ffemale-avatar_65581&tbnid=FDHquNQ9K9wAaM&vet=12ahUKEwjl4eulyoTvAhWxUXwKHb9eAfoQMygCegUIARDdAQ..i&docid=Ws4jMftUED2TlM&w=512&h=512&q=female%20icons&ved=2ahUKEwjl4eulyoTvAhWxUXwKHb9eAfoQMygCegUIARDdAQ </gender>
+            <rating>5</rating>
+        </row>
+        <row>
+            <empNo>902</empNo>
+            <empName>Vijay</empName>
+            <salary>1200</salary>
+            <currency>USD</currency>
+            <smoker>True</smoker>
+            <mStat>Single</mStat>
+            <gender>https://www.google.com/search?q=Male+Icons&sxsrf=ALeKk01NCY4U-8p_QAUSyelKWYHsjgVk4A:1614240341325&tbm=isch&source=iu&ictx=1&fir=-95TjxP481lJ8M%252CC4TxSlOFZAHMSM%252C_&vet=1&usg=AI4_-kRTZhLg9yI4E1EFnJVNUWndoJIU-A&sa=X&ved=2ahUKEwjlpIHxyYTvAhV17XMBHaN9BlYQ9QF6BAgKEAE#imgrc=-95TjxP481lJ8M </gender>
+            <rating>4</rating>
+        </row>
+        <row>
+            <empNo>903</empNo>
+            <empName>Vishakha</empName>
+            <salary>3000</salary>
+            <currency>EURO</currency>
+            <smoker>True</smoker>
+            <mStat>Single</mStat>
+            <gender>https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F65%2F65581.png&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ffemale-avatar_65581&tbnid=FDHquNQ9K9wAaM&vet=12ahUKEwjl4eulyoTvAhWxUXwKHb9eAfoQMygCegUIARDdAQ..i&docid=Ws4jMftUED2TlM&w=512&h=512&q=female%20icons&ved=2ahUKEwjl4eulyoTvAhWxUXwKHb9eAfoQMygCegUIARDdAQ </gender>
+            <rating>4</rating>
+        </row>
+        <row>
+            <empNo>904</empNo>
+            <empName>Hapreet</empName>
+            <salary>1200</salary>
+            <currency>Rupee</currency>
+            <smoker>False</smoker>
+            <mStat>Single</mStat>
+            <gender>https://www.google.com/search?q=Male+Icons&sxsrf=ALeKk01NCY4U-8p_QAUSyelKWYHsjgVk4A:1614240341325&tbm=isch&source=iu&ictx=1&fir=-95TjxP481lJ8M%252CC4TxSlOFZAHMSM%252C_&vet=1&usg=AI4_-kRTZhLg9yI4E1EFnJVNUWndoJIU-A&sa=X&ved=2ahUKEwjlpIHxyYTvAhV17XMBHaN9BlYQ9QF6BAgKEAE#imgrc=-95TjxP481lJ8M  </gender>
+            <rating>5</rating>
+        </row>
+    </empTab>
+
+</data>

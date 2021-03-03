@@ -1,0 +1,57 @@
+{
+    "empStr":{
+        "empNo":999,
+        "empName":"Manshu",
+        "salary":90000,
+        "currency":"Euros",
+        "mario":true
+
+    },
+    "empTab":[
+        {
+            "empNo":100,
+            "empName":"Mansi",
+            "salary":90000,
+            "currency":"Euros",
+            "smoker":true,
+            "mstat":"S"
+
+        },
+        {
+            "empNo":101,
+            "empName":"Masha",
+            "salary":90001,
+            "currency":"Euros",
+            "smoker":false,
+            "mstat":"S"
+        },{
+            "empNo":102,
+            "empName":"Mansi",
+            "salary":922000,
+            "currency":"Euros",
+            "smoker":true,
+            "mstat":"M"
+
+        },{
+            "empNo":103,
+            "empName":"Rashmi",
+            "salary":90002,
+            "currency":"USD",
+            "smoker":true,
+            "mstat":"S"
+        },{
+            "empNo":104,
+            "empName":"Minkal",
+            "salary":900009,
+            "currency":"Euros",
+            "smoker":true,
+            "mstat":"S"
+        },{
+            "empNo":105,
+            "empName":"Mahjab",
+            "salary":90000,
+            "currency":"JPY",
+            "smoker":true,
+            "mstat":"S"
+        }]
+}

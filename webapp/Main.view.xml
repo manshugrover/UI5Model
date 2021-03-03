@@ -1,0 +1,85 @@
+<mvc:View xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m" controllerName="oft.Main"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:table="sap.ui.table"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <App>
+        <Page title="Welcome to UI5 Model">
+            <table:Table rows="{/empTab}" visibleRowCount="5" selectionMode="Single" rowSelectionChange="onRowSelect">
+                <table:columns>
+                    <table:Column>
+                        <table:label>
+                            <Label text="{i18n>XLBL_EMPNO}"></Label>
+                        </table:label>
+                        <table:template>
+                            <Text text="{empNo}"></Text>
+                        </table:template>
+                    </table:Column>
+                    <table:Column>
+                        <table:label>
+                            <Label text="{i18n>XLBL_EMPNAME}"></Label>
+                        </table:label>
+                        <table:template>
+                            <Input value="{empName}"></Input>
+                        </table:template>
+                    </table:Column>
+                    <table:Column>
+                        <table:label>
+                            <Label text="{i18n>XLBL_SAL}"></Label>
+                        </table:label>
+                        <table:template>
+                            <Input value="{salary}"></Input>
+                        </table:template>
+                    </table:Column>
+                    <table:Column>
+                        <table:label>
+                            <Label text="{i18n>XLBL_CURR}"></Label>
+                        </table:label>
+                        <table:template>
+                            <Text text="{currency}"></Text>
+                        </table:template>
+                    </table:Column>
+                    
+                     <table:Column>
+                        <table:label>
+                            <Label text="{i18n>XLBL_SMOKER}"></Label>
+                        </table:label>
+                        <table:template>
+                            <CheckBox selected="false"></CheckBox>
+                        </table:template>
+                    </table:Column>
+                     <table:Column>
+                        <table:label>
+                            <Label text="{i18n>XLBL_MSTAT}"></Label>
+                        </table:label>
+                        <table:template>
+                        <Select selectedKey="{mstat}">
+                        <items>
+                        <core:Item key="M" text="Married"></core:Item>
+                        <core:Item key="S" text="Single"></core:Item>
+                        </items>
+                        </Select>
+                          
+                        </table:template>
+                    </table:Column>
+                </table:columns>
+            </table:Table>
+
+            <f:SimpleForm id="idSimple">
+                <Label text= "{i18n>XLBL_EMPNO}"></Label>
+                <Input value="{empNo}" ></Input>
+                <Label text= "{i18n>XLBL_EMPNAME}"></Label>
+                <Input value="{empName}" ></Input>
+                <Label text= "{i18n>XLBL_SAL}"></Label>
+                <Input id="idSal" value="{salary}"></Input>
+                <Label text= "{i18n>XLBL_CURR}"></Label>
+                <Input id="idCurr" value="{currency}"></Input>
+            </f:SimpleForm>
+            <Button text="{i18n>XBUT_MAGIC}" press="onMagic"></Button>
+            <Button text="{i18n>XBUT_FLIP}" press="onFlip"></Button>
+            <Button text="{i18n>XBUT_INS}" press="onInsert"></Button>
+            <Button text="{i18n>XBUT_DIV}" press="onDivansh"></Button>
+        </Page>
+    </App>
+</mvc:View>
